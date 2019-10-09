@@ -1,10 +1,16 @@
 import styled from 'styled-components/native';
-import { expression } from '@babel/template';
+
+export const Container = styled.View`
+    flex: 1;
+    background: #8B10AE;
+`;
+
 
 export const Title = styled.Text`
     position: absolute;
     width: 100%;
     top: 25%;
+    font-family:Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -12,10 +18,6 @@ export const Title = styled.Text`
     text-align: center;
     color: #FFFFFF;
 `;
+export const TextInput = styled.TextInput`
 
-export const Container = styled.View`
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    background: #5A0F96;
 `;
