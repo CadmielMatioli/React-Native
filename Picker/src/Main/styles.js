@@ -18,6 +18,19 @@ export const Title = styled.Text`
     text-align: center;
     color: #FFFFFF;
 `;
-export const TextInput = styled.TextInput`
+export const Input = styled.TextInput.attrs({
+  })`
 
-`;
+    width: 50%;
+    height:6%;
+    padding:3px;
+    position:absolute;
+    top:45%;
+    left: 25%;
+    color: #8B10AE;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+
+
+  `;
