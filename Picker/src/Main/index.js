@@ -8,11 +8,11 @@ export default function Main() {
     return( 
         <View style={{flex:1, backgroundColor:'#FFF'}}>
                 <StatusBar backgroundColor="#FFF"  barStyle="dark-content" />
-                <ScrollView>
+                {/* <ScrollView>
                 <Text>
                     iwdsidfhskjfhdk
                 </Text>
-            </ScrollView>
+            </ScrollView> */}
                 <Container style={{
                         alignSelf:"center",
                     }}>
