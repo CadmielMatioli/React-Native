@@ -10,12 +10,8 @@ export const Title = styled.Text`
     top:15%;
     color: #fFF;
 `;
-export const Input = styled.TextInput.attrs({
-  })`
-
 export const Container = styled.View`
     position: relative;
-    align-items:center;
     border-radius:100px;
     align-self: center;
     width: 80%;
