@@ -19,3 +19,9 @@ export const Container = styled.View`
     margin:5px;
     background: #5A0F96;
 `;
+
+export const Image = styled.Image`
+    border-radius:100;
+    width:100%;
+    margin-top:30px;
+`;
