@@ -1,36 +1,25 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
-    flex: 1;
-    background: #8B10AE;
-`;
-
-
 export const Title = styled.Text`
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 25%;
-    font-family:Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 24px;
     text-align: center;
-    color: #FFFFFF;
+    top:15%;
+    color: #fFF;
 `;
 export const Input = styled.TextInput.attrs({
   })`
 
-    width: 50%;
-    height:6%;
-    padding:3px;
-    position:absolute;
-    top:45%;
-    left: 25%;
-    color: #8B10AE;
-    background: #FFFFFF;
-    border: 1px solid #E0E0E0;
-    border-radius: 10px;
-
-
-  `;
+export const Container = styled.View`
+    position: relative;
+    align-items:center;
+    border-radius:100px;
+    align-self: center;
+    width: 80%;
+    height:50px;
+    margin:5px;
+    background: #5A0F96;
+`;
