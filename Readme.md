@@ -1,2 +1,2 @@
-### Para nao esquecer
+### Para nao esquecer na hora de dar react-native start usar...
  adb reverse tcp:8081 tcp:8081
